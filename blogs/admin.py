@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.http import HttpRequest
 
-from blogs.models import About, Blog, Category, SocialLink
+from blogs.models import About, Blog, Category, SocialLink,Comment
 
 
 
@@ -26,3 +26,4 @@ admin.site.register(Category)
 admin.site.register(Blog,BlogAdmin)
 admin.site.register(About,AboutAdmin)
 admin.site.register(SocialLink)
+admin.site.register(Comment)
